@@ -24,7 +24,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/blockparty-global/op-geth/log"
 )
 
 type storedCredential struct {

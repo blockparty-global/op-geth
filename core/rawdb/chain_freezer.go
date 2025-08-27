@@ -22,11 +22,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb/eradb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/blockparty-global/op-geth/common"
+	"github.com/blockparty-global/op-geth/core/rawdb/eradb"
+	"github.com/blockparty-global/op-geth/ethdb"
+	"github.com/blockparty-global/op-geth/log"
+	"github.com/blockparty-global/op-geth/params"
 )
 
 const (

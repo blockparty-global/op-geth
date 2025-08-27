@@ -21,10 +21,10 @@ import (
 	"testing"
 
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/blockparty-global/op-geth/common"
+	"github.com/blockparty-global/op-geth/core/rawdb"
+	"github.com/blockparty-global/op-geth/ethdb/memorydb"
+	"github.com/blockparty-global/op-geth/rlp"
 )
 
 // reverse reverses the contents of a byte slice. It's used to update random accs

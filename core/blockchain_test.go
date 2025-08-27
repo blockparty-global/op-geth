@@ -30,23 +30,23 @@ import (
 	"testing"
 	"time"
 
+	"github.com/blockparty-global/op-geth/common"
+	"github.com/blockparty-global/op-geth/consensus"
+	"github.com/blockparty-global/op-geth/consensus/beacon"
+	"github.com/blockparty-global/op-geth/consensus/ethash"
+	"github.com/blockparty-global/op-geth/core/history"
+	"github.com/blockparty-global/op-geth/core/rawdb"
+	"github.com/blockparty-global/op-geth/core/state"
+	"github.com/blockparty-global/op-geth/core/types"
+	"github.com/blockparty-global/op-geth/core/vm"
+	"github.com/blockparty-global/op-geth/core/vm/program"
+	"github.com/blockparty-global/op-geth/crypto"
+	"github.com/blockparty-global/op-geth/eth/tracers/logger"
+	"github.com/blockparty-global/op-geth/ethdb"
+	"github.com/blockparty-global/op-geth/ethdb/pebble"
+	"github.com/blockparty-global/op-geth/params"
+	"github.com/blockparty-global/op-geth/trie"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/beacon"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/history"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/core/vm/program"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/tracers/logger"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/pebble"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
 	"github.com/holiman/uint256"
 	"github.com/stretchr/testify/assert"
 )
@@ -1528,7 +1528,7 @@ func testEIP161AccountRemoval(t *testing.T, scheme string) {
 // tests that under weird reorg conditions the blockchain and its internal header-
 // chain return the same latest block/header.
 //
-// https://github.com/ethereum/go-ethereum/pull/15941
+// https://github.com/blockparty-global/op-geth/pull/15941
 func TestBlockchainHeaderchainReorgConsistency(t *testing.T) {
 	testBlockchainHeaderchainReorgConsistency(t, rawdb.HashScheme)
 	testBlockchainHeaderchainReorgConsistency(t, rawdb.PathScheme)
@@ -1744,8 +1744,8 @@ func testBlockchainRecovery(t *testing.T, scheme string) {
 // overtake the 'canon' chain until after it's passed canon by about 200 blocks.
 //
 // Details at:
-//   - https://github.com/ethereum/go-ethereum/issues/18977
-//   - https://github.com/ethereum/go-ethereum/pull/18988
+//   - https://github.com/blockparty-global/op-geth/issues/18977
+//   - https://github.com/blockparty-global/op-geth/pull/18988
 func TestLowDiffLongChain(t *testing.T) {
 	testLowDiffLongChain(t, rawdb.HashScheme)
 	testLowDiffLongChain(t, rawdb.PathScheme)

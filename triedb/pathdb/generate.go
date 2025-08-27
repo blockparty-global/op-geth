@@ -23,16 +23,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
-	"github.com/ethereum/go-ethereum/triedb/database"
+	"github.com/blockparty-global/op-geth/common"
+	"github.com/blockparty-global/op-geth/common/hexutil"
+	"github.com/blockparty-global/op-geth/core/rawdb"
+	"github.com/blockparty-global/op-geth/core/types"
+	"github.com/blockparty-global/op-geth/crypto"
+	"github.com/blockparty-global/op-geth/ethdb"
+	"github.com/blockparty-global/op-geth/log"
+	"github.com/blockparty-global/op-geth/rlp"
+	"github.com/blockparty-global/op-geth/trie"
+	"github.com/blockparty-global/op-geth/triedb/database"
 )
 
 var (

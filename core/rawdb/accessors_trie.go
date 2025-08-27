@@ -19,10 +19,10 @@ package rawdb
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/blockparty-global/op-geth/common"
+	"github.com/blockparty-global/op-geth/crypto"
+	"github.com/blockparty-global/op-geth/ethdb"
+	"github.com/blockparty-global/op-geth/log"
 )
 
 // HashScheme is the legacy hash-based state scheme with which trie nodes are

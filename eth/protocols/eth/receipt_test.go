@@ -20,10 +20,10 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/blockparty-global/op-geth/common"
+	"github.com/blockparty-global/op-geth/core/types"
+	"github.com/blockparty-global/op-geth/rlp"
+	"github.com/blockparty-global/op-geth/trie"
 )
 
 // miniDeriveFields derives the necessary receipt fields to make types.DeriveSha work.

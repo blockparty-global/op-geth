@@ -22,8 +22,8 @@ import (
 	"slices"
 	"sort"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/blockparty-global/op-geth/common"
+	"github.com/blockparty-global/op-geth/crypto"
 	"github.com/holiman/uint256"
 )
 

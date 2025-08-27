@@ -5,10 +5,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/types/interoptypes"
-	"github.com/ethereum/go-ethereum/miner"
+	"github.com/blockparty-global/op-geth/common"
+	"github.com/blockparty-global/op-geth/core/types"
+	"github.com/blockparty-global/op-geth/core/types/interoptypes"
+	"github.com/blockparty-global/op-geth/miner"
 )
 
 func (s *Ethereum) setSupervisorFailsafe(enabled bool) {

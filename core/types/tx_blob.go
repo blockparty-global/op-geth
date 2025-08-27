@@ -25,10 +25,10 @@ import (
 
 	"slices"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto/kzg4844"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/blockparty-global/op-geth/common"
+	"github.com/blockparty-global/op-geth/crypto/kzg4844"
+	"github.com/blockparty-global/op-geth/params"
+	"github.com/blockparty-global/op-geth/rlp"
 	"github.com/holiman/uint256"
 )
 

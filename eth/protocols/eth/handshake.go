@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/blockparty-global/op-geth/common"
+	"github.com/blockparty-global/op-geth/core"
+	"github.com/blockparty-global/op-geth/core/forkid"
+	"github.com/blockparty-global/op-geth/metrics"
+	"github.com/blockparty-global/op-geth/p2p"
 )
 
 const (

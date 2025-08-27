@@ -17,7 +17,7 @@
 package snap
 
 import (
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/blockparty-global/op-geth/metrics"
 )
 
 var (

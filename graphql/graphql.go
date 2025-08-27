@@ -27,16 +27,16 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/blockparty-global/op-geth/common"
+	"github.com/blockparty-global/op-geth/common/hexutil"
+	"github.com/blockparty-global/op-geth/consensus/misc/eip1559"
+	"github.com/blockparty-global/op-geth/core/state"
+	"github.com/blockparty-global/op-geth/core/types"
+	"github.com/blockparty-global/op-geth/eth/filters"
+	"github.com/blockparty-global/op-geth/internal/ethapi"
+	"github.com/blockparty-global/op-geth/rlp"
+	"github.com/blockparty-global/op-geth/rpc"
 	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip1559"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/filters"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/rpc"
 )
 
 var (

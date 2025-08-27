@@ -6,9 +6,9 @@ import (
 	"encoding/json"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/blockparty-global/op-geth/common"
+	"github.com/blockparty-global/op-geth/common/hexutil"
+	"github.com/blockparty-global/op-geth/core/vm"
 )
 
 var _ = (*callFrameWithOpcodesMarshaling)(nil)

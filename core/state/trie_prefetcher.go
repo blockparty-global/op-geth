@@ -20,9 +20,9 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/blockparty-global/op-geth/common"
+	"github.com/blockparty-global/op-geth/log"
+	"github.com/blockparty-global/op-geth/metrics"
 )
 
 var (

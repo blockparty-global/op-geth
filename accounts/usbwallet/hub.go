@@ -23,9 +23,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/blockparty-global/op-geth/accounts"
+	"github.com/blockparty-global/op-geth/event"
+	"github.com/blockparty-global/op-geth/log"
 	"github.com/karalabe/hid"
 )
 

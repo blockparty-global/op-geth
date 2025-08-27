@@ -22,9 +22,9 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params/forks"
+	"github.com/blockparty-global/op-geth/common"
+	"github.com/blockparty-global/op-geth/log"
+	"github.com/blockparty-global/op-geth/params/forks"
 )
 
 // Genesis hashes to enforce below configs on.

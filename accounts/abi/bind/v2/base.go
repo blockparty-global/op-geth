@@ -24,12 +24,11 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/blockparty-global/op-geth/accounts/abi"
+	"github.com/blockparty-global/op-geth/common"
+	"github.com/blockparty-global/op-geth/core/types"
+	"github.com/blockparty-global/op-geth/event"
 	"github.com/ethereum/go-ethereum"
-
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
 )
 
 const basefeeWiggleMultiplier = 2

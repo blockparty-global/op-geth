@@ -19,8 +19,8 @@ package filtermaps
 import (
 	"context"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/blockparty-global/op-geth/common"
+	"github.com/blockparty-global/op-geth/core/types"
 )
 
 // FilterMapsMatcherBackend implements MatcherBackend.

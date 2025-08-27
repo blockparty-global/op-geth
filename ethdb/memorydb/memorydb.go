@@ -25,8 +25,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/blockparty-global/op-geth/common"
+	"github.com/blockparty-global/op-geth/ethdb"
 )
 
 var (

@@ -23,8 +23,8 @@ import (
 	"iter"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/blockparty-global/op-geth/core/types"
+	"github.com/blockparty-global/op-geth/rlp"
 )
 
 // This is just a sanity limit for the size of a single receipt.

@@ -26,12 +26,12 @@ import (
 	"slices"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip1559"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip4844"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/blockparty-global/op-geth/common"
+	"github.com/blockparty-global/op-geth/consensus/misc/eip1559"
+	"github.com/blockparty-global/op-geth/consensus/misc/eip4844"
+	"github.com/blockparty-global/op-geth/core/types"
+	"github.com/blockparty-global/op-geth/log"
+	"github.com/blockparty-global/op-geth/rpc"
 )
 
 var (

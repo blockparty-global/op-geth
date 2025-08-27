@@ -19,7 +19,7 @@ package vm
 import (
 	"math"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/blockparty-global/op-geth/common"
 	"github.com/holiman/uint256"
 )
 

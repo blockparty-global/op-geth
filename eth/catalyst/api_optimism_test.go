@@ -4,10 +4,10 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/beacon/engine"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/blockparty-global/op-geth/beacon/engine"
+	"github.com/blockparty-global/op-geth/common"
+	"github.com/blockparty-global/op-geth/core/types"
+	"github.com/blockparty-global/op-geth/params"
 	"github.com/stretchr/testify/require"
 )
 

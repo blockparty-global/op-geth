@@ -3,8 +3,8 @@ package downloader
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/blockparty-global/op-geth/core/types"
+	"github.com/blockparty-global/op-geth/rlp"
 	"github.com/stretchr/testify/assert"
 )
 

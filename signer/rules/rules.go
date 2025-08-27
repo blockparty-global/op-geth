@@ -23,12 +23,12 @@ import (
 	"os"
 	"strings"
 
+	"github.com/blockparty-global/op-geth/internal/ethapi"
+	"github.com/blockparty-global/op-geth/internal/jsre/deps"
+	"github.com/blockparty-global/op-geth/log"
+	"github.com/blockparty-global/op-geth/signer/core"
+	"github.com/blockparty-global/op-geth/signer/storage"
 	"github.com/dop251/goja"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/internal/jsre/deps"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/storage"
 )
 
 // consoleOutput is an override for the console.log and console.error methods to

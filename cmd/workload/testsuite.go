@@ -22,12 +22,12 @@ import (
 	"io/fs"
 	"os"
 
-	"github.com/ethereum/go-ethereum/core/history"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/blockparty-global/op-geth/core/history"
+	"github.com/blockparty-global/op-geth/internal/flags"
+	"github.com/blockparty-global/op-geth/internal/utesting"
+	"github.com/blockparty-global/op-geth/log"
+	"github.com/blockparty-global/op-geth/params"
+	"github.com/blockparty-global/op-geth/rpc"
 	"github.com/urfave/cli/v2"
 )
 

@@ -22,11 +22,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/blockparty-global/op-geth/accounts"
+	"github.com/blockparty-global/op-geth/accounts/keystore"
+	"github.com/blockparty-global/op-geth/cmd/utils"
+	"github.com/blockparty-global/op-geth/common"
+	"github.com/blockparty-global/op-geth/crypto"
 	"github.com/urfave/cli/v2"
 )
 

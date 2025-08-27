@@ -20,8 +20,8 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/blockparty-global/op-geth/crypto"
+	"github.com/blockparty-global/op-geth/rlp"
 )
 
 // hasher is a type used for the trie Hash operation. A hasher has some

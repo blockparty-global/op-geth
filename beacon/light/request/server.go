@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/blockparty-global/op-geth/common/mclock"
+	"github.com/blockparty-global/op-geth/log"
 )
 
 var (

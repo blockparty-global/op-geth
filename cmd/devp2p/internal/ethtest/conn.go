@@ -24,13 +24,13 @@ import (
 	"reflect"
 	"time"
 
+	"github.com/blockparty-global/op-geth/crypto"
+	"github.com/blockparty-global/op-geth/eth/protocols/eth"
+	"github.com/blockparty-global/op-geth/eth/protocols/snap"
+	"github.com/blockparty-global/op-geth/p2p"
+	"github.com/blockparty-global/op-geth/p2p/rlpx"
+	"github.com/blockparty-global/op-geth/rlp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/eth/protocols/snap"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/rlpx"
-	"github.com/ethereum/go-ethereum/rlp"
 )
 
 var (
