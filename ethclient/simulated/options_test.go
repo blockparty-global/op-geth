@@ -22,10 +22,10 @@ import (
 	"strings"
 	"testing"
 
+	ethereum "github.com/blockparty-global/op-geth"
 	"github.com/blockparty-global/op-geth/core"
 	"github.com/blockparty-global/op-geth/core/types"
 	"github.com/blockparty-global/op-geth/params"
-	"github.com/ethereum/go-ethereum"
 )
 
 // Tests that the simulator starts with the initial gas limit in the genesis block,

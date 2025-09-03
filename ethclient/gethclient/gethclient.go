@@ -25,13 +25,13 @@ import (
 	"runtime"
 	"runtime/debug"
 
+	ethereum "github.com/blockparty-global/op-geth"
 	"github.com/blockparty-global/op-geth/common"
 	"github.com/blockparty-global/op-geth/common/hexutil"
 	"github.com/blockparty-global/op-geth/core/types"
 	"github.com/blockparty-global/op-geth/eth/tracers"
 	"github.com/blockparty-global/op-geth/p2p"
 	"github.com/blockparty-global/op-geth/rpc"
-	"github.com/ethereum/go-ethereum"
 )
 
 // Client is a wrapper around rpc.Client that implements geth-specific functionality.

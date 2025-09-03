@@ -25,12 +25,12 @@ import (
 	"sync"
 	"time"
 
+	ethereum "github.com/blockparty-global/op-geth"
 	"github.com/blockparty-global/op-geth/accounts"
 	"github.com/blockparty-global/op-geth/common"
 	"github.com/blockparty-global/op-geth/core/types"
 	"github.com/blockparty-global/op-geth/crypto"
 	"github.com/blockparty-global/op-geth/log"
-	"github.com/ethereum/go-ethereum"
 	"github.com/karalabe/hid"
 )
 

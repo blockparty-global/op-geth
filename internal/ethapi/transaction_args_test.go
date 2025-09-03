@@ -24,6 +24,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/blockparty-global/op-geth"
 	"github.com/blockparty-global/op-geth/accounts"
 	"github.com/blockparty-global/op-geth/common"
 	"github.com/blockparty-global/op-geth/common/hexutil"
@@ -37,7 +38,6 @@ import (
 	"github.com/blockparty-global/op-geth/event"
 	"github.com/blockparty-global/op-geth/params"
 	"github.com/blockparty-global/op-geth/rpc"
-	"github.com/ethereum/go-ethereum"
 )
 
 // TestSetFeeDefaults tests the logic for filling in default fee values works as expected.

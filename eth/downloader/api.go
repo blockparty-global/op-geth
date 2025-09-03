@@ -21,10 +21,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/blockparty-global/op-geth"
 	"github.com/blockparty-global/op-geth/core"
 	"github.com/blockparty-global/op-geth/event"
 	"github.com/blockparty-global/op-geth/rpc"
-	"github.com/ethereum/go-ethereum"
 )
 
 // DownloaderAPI provides an API which gives information about the current

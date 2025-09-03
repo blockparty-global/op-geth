@@ -25,6 +25,7 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/blockparty-global/op-geth"
 	"github.com/blockparty-global/op-geth/common"
 	"github.com/blockparty-global/op-geth/common/lru"
 	"github.com/blockparty-global/op-geth/core"
@@ -36,7 +37,6 @@ import (
 	"github.com/blockparty-global/op-geth/log"
 	"github.com/blockparty-global/op-geth/params"
 	"github.com/blockparty-global/op-geth/rpc"
-	"github.com/ethereum/go-ethereum"
 )
 
 // Config represents the configuration of the filter system.

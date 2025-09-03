@@ -20,6 +20,7 @@ import (
 	"errors"
 	"time"
 
+	ethereum "github.com/blockparty-global/op-geth"
 	"github.com/blockparty-global/op-geth/common"
 	"github.com/blockparty-global/op-geth/core"
 	"github.com/blockparty-global/op-geth/core/types"
@@ -32,7 +33,6 @@ import (
 	"github.com/blockparty-global/op-geth/p2p"
 	"github.com/blockparty-global/op-geth/params"
 	"github.com/blockparty-global/op-geth/rpc"
-	"github.com/ethereum/go-ethereum"
 )
 
 // Client exposes the methods provided by the Ethereum RPC client.

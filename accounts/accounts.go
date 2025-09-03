@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"math/big"
 
+	ethereum "github.com/blockparty-global/op-geth"
 	"github.com/blockparty-global/op-geth/common"
 	"github.com/blockparty-global/op-geth/core/types"
 	"github.com/blockparty-global/op-geth/event"
-	"github.com/ethereum/go-ethereum"
 	"golang.org/x/crypto/sha3"
 )
 

@@ -21,10 +21,10 @@ import (
 	"errors"
 	"time"
 
+	ethereum "github.com/blockparty-global/op-geth"
 	"github.com/blockparty-global/op-geth/common"
 	"github.com/blockparty-global/op-geth/core/types"
 	"github.com/blockparty-global/op-geth/log"
-	"github.com/ethereum/go-ethereum"
 )
 
 // WaitMined waits for tx to be mined on the blockchain.

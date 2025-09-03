@@ -34,9 +34,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/blockparty-global/op-geth"
 	"github.com/blockparty-global/op-geth/accounts/abi"
 	"github.com/blockparty-global/op-geth/internal/ethapi/override"
-	"github.com/ethereum/go-ethereum"
 
 	"github.com/blockparty-global/op-geth/accounts"
 	"github.com/blockparty-global/op-geth/accounts/keystore"

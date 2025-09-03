@@ -24,6 +24,7 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/blockparty-global/op-geth"
 	"github.com/blockparty-global/op-geth/common"
 	"github.com/blockparty-global/op-geth/consensus/ethash"
 	"github.com/blockparty-global/op-geth/core"
@@ -37,7 +38,6 @@ import (
 	"github.com/blockparty-global/op-geth/node"
 	"github.com/blockparty-global/op-geth/params"
 	"github.com/blockparty-global/op-geth/rpc"
-	"github.com/ethereum/go-ethereum"
 )
 
 var (

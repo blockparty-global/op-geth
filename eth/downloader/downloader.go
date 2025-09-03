@@ -25,6 +25,7 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/blockparty-global/op-geth"
 	"github.com/blockparty-global/op-geth/common"
 	"github.com/blockparty-global/op-geth/core/rawdb"
 	"github.com/blockparty-global/op-geth/core/state/snapshot"
@@ -37,7 +38,6 @@ import (
 	"github.com/blockparty-global/op-geth/params"
 	"github.com/blockparty-global/op-geth/rlp"
 	"github.com/blockparty-global/op-geth/triedb"
-	"github.com/ethereum/go-ethereum"
 )
 
 var (

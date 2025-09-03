@@ -22,6 +22,7 @@ import (
 	"math/big"
 	"sync"
 
+	ethereum "github.com/blockparty-global/op-geth"
 	"github.com/blockparty-global/op-geth/accounts"
 	"github.com/blockparty-global/op-geth/common"
 	"github.com/blockparty-global/op-geth/common/hexutil"
@@ -30,7 +31,6 @@ import (
 	"github.com/blockparty-global/op-geth/log"
 	"github.com/blockparty-global/op-geth/rpc"
 	"github.com/blockparty-global/op-geth/signer/core/apitypes"
-	"github.com/ethereum/go-ethereum"
 )
 
 type ExternalBackend struct {

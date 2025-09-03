@@ -27,6 +27,7 @@ import (
 	"strings"
 	"sync"
 
+	ethereum "github.com/blockparty-global/op-geth"
 	"github.com/blockparty-global/op-geth/common"
 	"github.com/blockparty-global/op-geth/common/hexutil"
 	"github.com/blockparty-global/op-geth/consensus/misc/eip1559"
@@ -36,7 +37,6 @@ import (
 	"github.com/blockparty-global/op-geth/internal/ethapi"
 	"github.com/blockparty-global/op-geth/rlp"
 	"github.com/blockparty-global/op-geth/rpc"
-	"github.com/ethereum/go-ethereum"
 )
 
 var (

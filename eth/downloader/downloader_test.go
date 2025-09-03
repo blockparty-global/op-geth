@@ -24,6 +24,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/blockparty-global/op-geth"
 	"github.com/blockparty-global/op-geth/common"
 	"github.com/blockparty-global/op-geth/consensus/ethash"
 	"github.com/blockparty-global/op-geth/core"
@@ -36,7 +37,6 @@ import (
 	"github.com/blockparty-global/op-geth/params"
 	"github.com/blockparty-global/op-geth/rlp"
 	"github.com/blockparty-global/op-geth/trie"
-	"github.com/ethereum/go-ethereum"
 )
 
 // downloadTester is a test simulator for mocking out local block chain.

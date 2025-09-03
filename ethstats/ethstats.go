@@ -30,6 +30,7 @@ import (
 	"sync"
 	"time"
 
+	ethereum "github.com/blockparty-global/op-geth"
 	"github.com/blockparty-global/op-geth/common"
 	"github.com/blockparty-global/op-geth/common/mclock"
 	"github.com/blockparty-global/op-geth/consensus"
@@ -41,7 +42,6 @@ import (
 	"github.com/blockparty-global/op-geth/node"
 	"github.com/blockparty-global/op-geth/p2p"
 	"github.com/blockparty-global/op-geth/rpc"
-	"github.com/ethereum/go-ethereum"
 	"github.com/gorilla/websocket"
 )
 

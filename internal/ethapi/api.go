@@ -26,6 +26,7 @@ import (
 	"strings"
 	"time"
 
+	ethereum "github.com/blockparty-global/op-geth"
 	"github.com/blockparty-global/op-geth/accounts"
 	"github.com/blockparty-global/op-geth/common"
 	"github.com/blockparty-global/op-geth/common/hexutil"
@@ -47,7 +48,6 @@ import (
 	"github.com/blockparty-global/op-geth/rpc"
 	"github.com/blockparty-global/op-geth/trie"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum"
 )
 
 // estimateGasErrorRatio is the amount of overestimation eth_estimateGas is

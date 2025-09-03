@@ -29,12 +29,12 @@ package bind
 import (
 	"errors"
 
+	ethereum "github.com/blockparty-global/op-geth"
 	"github.com/blockparty-global/op-geth/accounts/abi"
 	"github.com/blockparty-global/op-geth/common"
 	"github.com/blockparty-global/op-geth/core/types"
 	"github.com/blockparty-global/op-geth/crypto"
 	"github.com/blockparty-global/op-geth/event"
-	"github.com/ethereum/go-ethereum"
 )
 
 // ContractEvent is a type constraint for ABI event types.

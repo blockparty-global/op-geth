@@ -21,9 +21,9 @@ import (
 	"errors"
 	"math/big"
 
+	ethereum "github.com/blockparty-global/op-geth"
 	"github.com/blockparty-global/op-geth/common"
 	"github.com/blockparty-global/op-geth/core/types"
-	"github.com/ethereum/go-ethereum"
 )
 
 var (

@@ -22,6 +22,7 @@ import (
 	"math/big"
 	"time"
 
+	ethereum "github.com/blockparty-global/op-geth"
 	"github.com/blockparty-global/op-geth/accounts"
 	"github.com/blockparty-global/op-geth/common"
 	"github.com/blockparty-global/op-geth/consensus"
@@ -34,7 +35,6 @@ import (
 	"github.com/blockparty-global/op-geth/event"
 	"github.com/blockparty-global/op-geth/params"
 	"github.com/blockparty-global/op-geth/rpc"
-	"github.com/ethereum/go-ethereum"
 )
 
 // Backend interface provides the common API services (that are provided by

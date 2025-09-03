@@ -23,6 +23,7 @@ import (
 	"math/big"
 	"time"
 
+	ethereum "github.com/blockparty-global/op-geth"
 	"github.com/blockparty-global/op-geth/accounts"
 	"github.com/blockparty-global/op-geth/common"
 	"github.com/blockparty-global/op-geth/common/hexutil"
@@ -44,7 +45,6 @@ import (
 	"github.com/blockparty-global/op-geth/log"
 	"github.com/blockparty-global/op-geth/params"
 	"github.com/blockparty-global/op-geth/rpc"
-	"github.com/ethereum/go-ethereum"
 )
 
 // EthAPIBackend implements ethapi.Backend and tracers.Backend for full nodes
